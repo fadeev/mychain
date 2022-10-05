@@ -1,9 +1,11 @@
 // THIS FILE IS GENERATED AUTOMATICALLY. DO NOT MODIFY.
 
+import MychainDex from './mychain.dex'
 import MychainMychain from './mychain.mychain'
 
 
 export default { 
+  MychainDex: load(MychainDex, 'mychain.dex'),
   MychainMychain: load(MychainMychain, 'mychain.mychain'),
   
 }
